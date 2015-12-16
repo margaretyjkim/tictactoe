@@ -22,7 +22,7 @@ $(document).ready(function() {
    			var secondMove = $("#c-" + combo[1]).text();
    			var thirdMove = $("#c-" + combo[2]).text();
    			if ( firstMove !='' && firstMove === secondMove && secondMove === thirdMove){
-   				alert(firstMove + "wins!")
+   				alert(firstMove + " wins!")
    				gameEnding();
    				return
    			};

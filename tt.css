@@ -1,4 +1,60 @@
 td{
-	border: 1px solid #000;
+	border: 1px solid black;
 	padding: 50px;
+	position: relative;
+}
+
+table{
+	/*background: url("http://piq.codeus.net/static/media/userpics/piq_75535_400x400.png");*/
+
+}
+
+.fire{
+	background: url("http://www.p4rgaming.com/wp-content/uploads/2013/01/zelda_fire_render.gif ");
+	background-size:100% 100%;
+}
+
+.vertical:before{
+/*	border-left: 0.3em solid transparent;
+	border-image: url("http://2.bp.blogspot.com/-lN2jn3j7q14/T-mpjJT6IZI/AAAAAAAABCU/gb_FOmGOHtw/s1600/reusage-free-texture-blog-paper-black-marker-lines-2.png") 0 27 27 27 round stretch;
+	content: '';
+	top:0px;
+	left:0px;
+	position: absolute;
+	height:100%;*/
+
+}
+
+.vertical:after{
+/*	border-right:0.3em solid transparent;
+	border-image: url("http://2.bp.blogspot.com/-lN2jn3j7q14/T-mpjJT6IZI/AAAAAAAABCU/gb_FOmGOHtw/s1600/reusage-free-texture-blog-paper-black-marker-lines-2.png") 0 27 27 27 round stretch;
+	content: '';
+	top:0px;
+	right:0px;
+	position: absolute;
+
+	height:100%;*/
+}
+
+.horizontal:before{
+/*	border-top: 0.3em solid transparent;
+	border-image: url("http://2.bp.blogspot.com/-lN2jn3j7q14/T-mpjJT6IZI/AAAAAAAABCU/gb_FOmGOHtw/s1600/reusage-free-texture-blog-paper-black-marker-lines-2.png") 0 27 27 27 round stretch;
+	content: '';
+	top:0px;
+	left:0px;
+	position: absolute;
+	width:100%;*/
+
+
+}
+
+
+.horizontal:after{
+/*	border-bottom: 0.3em solid transparent;
+	border-image: url("http://2.bp.blogspot.com/-lN2jn3j7q14/T-mpjJT6IZI/AAAAAAAABCU/gb_FOmGOHtw/s1600/reusage-free-texture-blog-paper-black-marker-lines-2.png") 0 27 27 27 round stretch;
+	content: '';
+	top:0px;
+	left:0px;
+	position: absolute;
+	width:100%;*/
 }
